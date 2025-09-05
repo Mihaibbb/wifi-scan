@@ -1,0 +1,24 @@
+{
+  "name": "wifi-devices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon script.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "local-devices": "^4.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.0.0-rc.1",
+    "node-wifi": "^2.0.16",
+    "util": "^0.12.5"
+  }
+}

@@ -1,0 +1,103 @@
+.title 
+{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.table-devices 
+{
+    width: 100%;
+    height: 100%;
+    max-width: 90%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+.table-devices > div 
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-devices > div .elem
+{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(38, 37, 37);
+    width: 100%;
+    
+}
+
+.table-devices > div .elem input 
+{
+    width: 100%;
+    height: 100%;
+    height: 69px;
+    border: none;
+    outline: none;
+    flex: 1;
+    min-height: max-content;
+}
+
+.table-devices .elem p 
+{
+    font-size: 20px;
+}
+
+.table-devices .elem .remove-icon 
+{
+    background: crimson;
+    color: #fff;
+    padding: 1rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.table-devices .elem .save-icon 
+{
+    background: rgb(13, 200, 116);
+    color: #fff;
+    padding: 1rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.table-devices .first-row p 
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.table-devices th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.table-devices tr:first-child th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.table-devices tr:nth-child(even) {
+    background: #c5c5c5;
+}
+
+.table-devices tr:hover {
+    background: #ddd;
+}
+
